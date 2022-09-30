@@ -1,0 +1,166 @@
+/*Geral*/
+
+body {
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.titulo {
+    font-size: max(40px, 4vw);
+}
+
+.textos {
+    font-size: max(15px, 1.5vw);
+}
+
+/*Navbar*/
+
+header, .navbar {
+    background-color: #000;
+}
+
+.new {
+    border-bottom: 3px solid #39ACE7;
+}
+
+#logo {
+    width: 60px;
+    margin-left: .8rem;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #fff;
+}
+
+#navbarText a {
+    font-size: 20px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+#navbarText a:hover {
+    background-color:  #39ACE7;
+    border-radius: 20px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+.ativo-menu {
+    background-color:  #39ACE7;
+    border-radius: 20px;
+}
+
+/*Home*/
+
+#home {
+    background-color: #000;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: #fff;
+}
+
+.botao-home {
+    width: 150px;
+    height: 50px;
+    background-color: #39ACE7;
+    border: 2px solid #39ACE7;
+    border-radius: 10px;
+}
+
+.botao-home a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.botao-home a:hover {
+    color: #00171F;
+}
+
+.botao-home:hover {
+    background-color: #fff;
+}
+
+/*Sobre*/
+
+#sobre{
+    padding: 100px;
+    background-color: #fff;
+    color: #000;
+}
+
+/*Servicos*/
+
+#servicos {
+    padding: 100px;
+    background-color: #000;
+    color: #39ACE7;
+}
+
+/*Portifólio*/
+
+#portifolio {
+    padding: 100px;
+    background-color: #fff;
+    color: #000;
+    min-height: 1208px;
+}
+
+.cartao {
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px black;
+    min-width: 148px;
+}
+
+.moldura {
+    border: 2px solid #39ACE7;
+    border-radius: 5px;
+}
+
+.botao-portifolio {
+    width: 170px;
+    height: 50px;
+    color: #00171F;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.botao-portifolio:hover {
+    color: #fff;
+    background-color: #39ACE7;
+}
+
+.ativo {
+    color: #fff;
+    background-color: #39ACE7;
+}
+
+
+
+/*Contato*/
+
+#contato {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #39ACE7;
+    color: #000;
+}
+
+.botao-contato {
+    width: 50%;
+    height: 50px;
+    color: #fff;
+    background-color: #000;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.botao-contato:hover {
+    color: #000;
+    background-color: #fff;
+}
+
